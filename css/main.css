@@ -4,6 +4,7 @@
     --light-blue: hsl(233, 100%, 69%);
     --dark-blue: hsl(210, 10%, 33%);
     --grayish-blue: hsl(201, 11%, 66%);
+    --white-color: hsl(100, 100%, 100%);
 }
 
 * {
@@ -21,3 +22,8 @@ body {
     font-size: 1.125rem;
     line-height: 1.6;
 }
+
+header .logo {
+    margin-top: 7.7rem;
+}
+

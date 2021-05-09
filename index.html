@@ -6,9 +6,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="utilities.css">
-  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/media.css">
   <title>Frontend Mentor | Clipboard landing page</title>
 </head>
 <body>
@@ -17,14 +17,16 @@
       <img src="images/logo.svg" class="logo" alt="">
       <h1>A history of everything you copy</h1>
       <p class="lead">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
-      <a href="#" class="btn btn-primary">Download for iOS</a>  
-      <a href="#" class="btn btn-secondary">Download for Mac</a>  
+      <div class="buttons">
+        <a href="#" class="btn btn-primary">Download for iOS</a>  
+        <a href="#" class="btn btn-secondary">Download for Mac</a> 
+      </div> 
     </div>
   </header>
   <main>
-    <section class="section">
+    <section class="section container">
       <h2>Keep track of your snippets</h2>
-      <p class="medium">Clipboard instantly stores any item you copy in the cloud,meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+      <p class="medium">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
     </section>
 
     <section id="image-text">
@@ -86,8 +88,10 @@
     <section class="section">
       <h2>Clipboard for iOS and Mac OS</h2>
       <p class="medium">  Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
-      <a href="#" class="btn btn-primary">  Download for iOS</a>
-      <a href="#" class="btn btn-secondary">Download for Mac</a>
+      <div class="buttons">
+        <a href="#" class="btn btn-primary">  Download for iOS</a>
+        <a href="#" class="btn btn-secondary">Download for Mac</a>
+      </div>
     </section>
   </main>
   <footer>

@@ -1,0 +1,56 @@
+
+.container {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: var(--dark-blue);
+    margin-top: 2rem;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    color: var(--grayish-blue);
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.8rem 2rem;
+    border-radius: 1.875rem;
+    color: var(--white-color);
+    font-weight: 600;
+    margin: 0 0.4rem;
+}
+
+.btn-primary {
+    background-color: var(--strong-cyan);
+}
+
+.btn-secondary {
+    background-color: var(--light-blue);
+}
+
+.buttons {
+    margin-top: 2.5rem;
+}
+
+.section {
+    margin-top: 8.5rem;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+    color: var(--dark-blue);
+}
+
+.medium {
+    color: var(--grayish-blue);
+    margin-top: 1rem;
+}
