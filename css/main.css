@@ -5,6 +5,7 @@
     --dark-blue: hsl(210, 10%, 33%);
     --grayish-blue: hsl(201, 11%, 66%);
     --white-color: hsl(100, 100%, 100%);
+    --light-gray: hsl(0, 0%, 96%);
 }
 
 * {
@@ -27,3 +28,90 @@ header .logo {
     margin-top: 7.7rem;
 }
 
+#image-text {
+    display: flex;
+    gap: 5rem;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+#image-text .box {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 13rem 0rem 3rem;
+}
+
+#image-text .box .small-section {
+    margin-top: 3rem;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+#workflow {
+    margin-top: 3rem;
+}
+
+#columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    grid-gap: 2rem;
+    max-width: 1300px;
+    padding: 0 5rem;
+}
+
+#columns .column {
+    text-align: center;
+}
+
+#columns .column img {
+    height: 35px;
+    margin-bottom: 1.5rem;
+}
+
+#logos {
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+#logos img {
+    height: 50px;
+}
+
+#last-section {
+    margin-bottom: 9rem;
+}
+
+footer {
+    background: var(--light-gray);
+}
+
+#additional {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+}
+
+#additional .logo img {
+    width: 60px;
+}
+
+#additional .info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#additional a {
+    padding: 0 1rem;
+}
+
+#additional .icons img {
+    padding: 0 0.5rem;
+}
