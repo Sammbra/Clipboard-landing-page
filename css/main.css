@@ -23,8 +23,24 @@ body {
   line-height: 1.6;
 }
 
+header {
+  position: relative;
+}
+
 header .logo {
   margin-top: 7.7rem;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  background-image: url('../images/bg-header-desktop.png');
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
 }
 
 #image-text {
@@ -111,6 +127,11 @@ footer {
 #additional a {
   padding: 1rem 3rem 0rem 3rem;
   color: var(--dark-blue);
+  transition: color 300ms ease;
+}
+
+#additional a:hover {
+  color: var(--strong-cyan);
 }
 
 #additional .icons {
@@ -119,8 +140,15 @@ footer {
   justify-content: center;
 }
 
-#additional .icons img {
+#additional .icons .fab {
+  color: var(--dark-blue);
   padding: 0 0.7rem;
+  transition: color 300ms ease;
+}
+
+#additional .icons .fab:hover {
+  color: var(--strong-cyan);
+  cursor: pointer;
 }
 
 .attribution {
@@ -131,4 +159,11 @@ footer {
 
 .attribution a {
   color: var(--dark-blue);
+  transition: color 300ms ease;
 }
+
+.attribution a:hover {
+  color: var(--strong-cyan);
+}
+
+

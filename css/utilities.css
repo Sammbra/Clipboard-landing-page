@@ -24,15 +24,27 @@ h1 {
   border-radius: 1.875rem;
   color: var(--white-color);
   font-weight: 600;
-  margin: 0 0.4rem;
+  margin: 1rem 0.4rem;
 }
 
 .btn-primary {
   background-color: var(--strong-cyan);
+  transition: background-color 300ms ease;
+  box-shadow: rgb(38, 186, 164, 0.5) 0px 2px 8px 0px;
+}
+
+.btn-primary:hover {
+  background-color: hsl(171, 54%, 57%);
 }
 
 .btn-secondary {
   background-color: var(--light-blue);
+  transition: background-color 300ms ease;
+  box-shadow: rgb(97, 115, 255, 0.5) 0px 2px 8px 0px;
+} 
+
+.btn-secondary:hover {
+  background-color: hsl(233, 94%, 74%);
 }
 
 .buttons {
