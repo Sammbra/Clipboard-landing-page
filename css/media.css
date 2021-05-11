@@ -1,107 +1,135 @@
-@media(max-width: 800px) {
-    .container {
-        max-width: 450px;
-        padding: 0 1.5rem;
-    }
+@media(max-width: 1300px) {
+  #image-text {
+    max-width: 1000px;
+  }
 
-    h1 {
-        font-size: 2rem;
-        line-height: 1.3;
-        margin-top: 3rem;
-    }
+  #image-text img {
+    height: 20rem;
+    padding: 0 1.5rem;
+  }
 
-    .lead { 
-        font-size: 1rem;
-        margin-top: 1rem;
-    }
+  #image-text .box {
+    padding: 0 3rem;
+  }
 
-    .btn {
-        width: 100%;
-        margin: 0.7rem;
-    }
+  #image-text .box .small-section {
+    margin-top: 0rem;
+  }
 
-    h2 {
-        font-size: 1.9rem;
-        line-height: 1.3;
-    }
+  #logos {
+    padding: 0 1.5rem;
+  }
 
-    .medium {
-        font-size: 1rem;
-    }
-
-    #image-text {
-        display: flex;
-        flex-direction: column;
-        max-width: 450px;
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 0rem;
-    }
-
-    #image-text img {
-        width: 20rem;
-        height: 15rem;
-    }
-
-    #image-text .box {
-        padding: 2rem;
-    }
-
-    #image-text .box .small-section {
-        margin-top: 2rem; 
-    }
-
-    .image {
-        width: 14rem;
-        height: 14rem;
-        max-width: 450px;
-        margin: 0 auto;
-    }
-
-    #workflow {
-        margin-top: 5rem;
-      }
-
-    #columns {
-        grid-template-columns: repeat(1, 1fr);
-        max-width: 450px;
-        padding: 1.5rem;
-    }
-
-    #columns .column {
-        margin: 1rem 0;
-    }
-
-    #logos {
-        max-width: 450px;
-        flex-direction: column;
-        gap: 4rem;
-        align-items: center;
-        margin-top: 5rem;
-    }
-
-    #logos img {
-        width: 7.5rem;
-        height: 2.5rem;
-    }
-
-    #additional {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-
-    #additional .info {
-        justify-content: center;
-        padding: 2rem 0;
-    }
-    
-    #additional a {
-        padding: 1rem;
-    }
+  #logos img {
+    height: 45px;
+  }
 }
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 450px;
+    padding: 0 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-top: 3rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 0.7rem;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+    line-height: 1.3;
+  }
+
+  .medium {
+    font-size: 1rem;
+  }
+
+  #image-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0rem;
+  }
+
+  #image-text img {
+    width: 20rem;
+    height: 15rem;
+  }
+
+  #image-text .box {
+    padding: 2rem;
+  }
+
+  #image-text .box .small-section {
+    margin-top: 3rem;
+  }
+
+  .image {
+    width: 14rem;
+    height: 14rem;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  #workflow {
+    margin-top: 5rem;
+  }
+
+  #columns {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 450px;
+    padding: 1.5rem;
+  }
+
+  #columns .column {
+    margin: 1rem 0;
+  }
+
+  #logos {
+    max-width: 450px;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  #logos img {
+    height: 45px;
+  }
+
+  #additional {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  #additional .info {
+    justify-content: center;
+    padding: 2rem 0;
+  }
+
+  #additional a {
+    padding: 1rem;
+  }
+}
+
+
